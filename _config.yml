@@ -22,7 +22,7 @@ repository               : "zx283/zx283.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "zhiqiu-profile.png"
   name             : "Zhiqiu Xia"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Electrical and Computer Engineering"
