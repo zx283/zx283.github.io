@@ -17,4 +17,49 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Custom CSS for visitor map -->
+<style>
+  .visitor-map-section {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 30px 0;
+    text-align: center;
+    border: 1px solid #e9ecef;
+  }
+  
+  .visitor-map-section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .visitor-map-section p {
+    color: #6c757d;
+    font-style: italic;
+    margin-top: 15px;
+  }
+  
+  .visitor-map-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Dark theme support */
+  [data-theme="dark"] .visitor-map-section {
+    background: #2a2a2a;
+    border-color: #444;
+  }
+  
+  [data-theme="dark"] .visitor-map-section h2 {
+    color: #e9ecef;
+  }
+  
+  [data-theme="dark"] .visitor-map-section p {
+    color: #adb5bd;
+  }
+</style>
+
 <!-- end custom head snippets -->
